@@ -5,7 +5,7 @@ import SidebarFilter from "./SidebarFilter.jsx";
 const Layout = () => {
     return(
         <Grid container>
-            <Grid item xs={2} sm={12} md={2} >
+            <Grid item xs={4} sm={3} md={2} >
                 <SidebarFilter></SidebarFilter>
             </Grid>
         </Grid>
